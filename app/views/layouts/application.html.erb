@@ -8,43 +8,15 @@
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <%= javascript_importmap_tags %>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NVKGSZMZ');</script>
-    <!-- End Google Tag Manager -->
-
-    <!-- Removed gtag.js script -->
-    <!--
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16696567056"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GN2G268RFG"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'AW-16696567056');
+      gtag('config', 'G-GN2G268RFG');
     </script>
-    -->
-
-    <!-- Event snippet for Typeform (1) conversion page -->
-    <script>
-    function gtag_report_conversion(url) {
-      var callback = function () {
-        if (typeof(url) != 'undefined') {
-          window.location = url;
-        }
-      };
-      gtag('event', 'conversion', {
-          'send_to': 'AW-16696567056/KpFECMKZutMZEJDKxZk-',
-          'event_callback': callback
-      });
-      return false;
-    }
-    </script>
-
   </head>
 
   <body>
