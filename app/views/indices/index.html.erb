@@ -1,7 +1,7 @@
 <div class="container mx-auto p-8">
         <section class="text-center bg-gray pb-60 rounded-lg">
             <text-box class="p-20">
-                    <h1 class="font-bold text-5xl mt-4 text-[#4CFF4F] italic">📈 Boost Your Business with 5-Star Google Reviews</h2>
+                    <h1 class="font-bold text-5xl mt-4 text-[#4CFF4F]">Boost Your Business <br> with 5-Star Google Reviews</h2>
             <p class="pt-10">Automated Review Generation System for UK Businesses <br><br>Transform Your Online Reputation.</p>
             </text-box>
             <div class="p-10">
@@ -13,76 +13,152 @@
         </section>
 
         <section class="mt-12 text-center bg-gray pb-40 rounded-lg">
-            <h2 class="text-4xl font-bold">The KerchTech Advantage</h2>
-            <h3 class="text-xxl mt-4 pb-10">We've developed a smart, automated system that turns happy customers into glowing ⭐⭐⭐⭐⭐ reviews - helping local businesses facilities like yours climb to the top of local search results. </h3>
-            <div class="pt-10 grid grid-cols-1 md:grid-cols-2 gap-4"> <!-- Adjusted to use grid layout -->
-                <div> <!-- Added a wrapper for each column -->
-                    <h4 class="text-2xl mt-4 font-bold">Increase your Google review count by 200-300%</h4>
-                    <hr class="border-t-2 border-[#83cd29] my-2"> <!-- Horizontal green line -->
+            <h2 class="text-4xl font-bold pb-20">How It Works: Our 3-Step Process</h2>
+            <div class="mx-auto max-w-2xl space-y-8">
+                <!-- Step 1 -->
+                <div class="bg-black-800 shadow-lg rounded-lg p-6">
+                    <h3 class="text-2xl font-semibold cursor-pointer" onclick="toggleFeatures('step1')">
+                        Custom Review Portal
+                    </h3>
+                    <ul id="step1" class="list-disc pl-5 mt-4 hidden">
+                        <li class="text-sm text-gray-700">Branded feedback page matching your business identity</li>
+                        <li class="text-sm text-gray-700">Mobile-optimized design for maximum response rates</li>
+                        <li class="text-sm text-gray-700">Simple, intuitive user experience</li>
+                    </ul>
                 </div>
-                <div> <!-- Added a wrapper for each column -->
-                    <h4 class="text-2xl mt-4 font-bold">Improve your average rating</h4>
-                    <hr class="border-t-2 border-[#83cd29] my-2"> <!-- Horizontal green line -->
+                <!-- Step 2 -->
+                <div class="bg-black-800 shadow-lg rounded-lg p-6">
+                    <h3 class="text-2xl font-semibold cursor-pointer" onclick="toggleFeatures('step2')">
+                        Smart Automation
+                    </h3>
+                    <ul id="step2" class="list-disc pl-5 mt-4 hidden">
+                        <li class="text-sm text-gray-700">Perfectly timed review requests</li>
+                        <li class="text-sm text-gray-700">Personalized email communications</li>
+                        <li class="text-sm text-gray-700">Follow-up sequence for maximum conversion</li>
+                    </ul>
                 </div>
-                <div> <!-- Added a wrapper for each column -->
-                    <h4 class="text-2xl mt-4 font-bold">Boost your local search rankings</h4>
-                    <hr class="border-t-2 border-[#83cd29] my-2"> <!-- Horizontal green line -->
+                <!-- Step 3 -->
+                <div class="bg-black-800 shadow-lg rounded-lg p-6">
+                    <h3 class="text-2xl font-semibold cursor-pointer" onclick="toggleFeatures('step3')">
+                        Intelligent Review Management
+                    </h3>
+                    <ul id="step3" class="list-disc pl-5 mt-4 hidden">
+                        <li class="text-sm text-gray-700">Automatic positive review routing to Google</li>
+                        <li class="text-sm text-gray-700">Private feedback channel for constructive criticism</li>
+                        <li class="text-sm text-gray-700">Review monitoring and response management</li>
+                    </ul>
                 </div>
-                <div> <!-- Added a wrapper for each column -->
-                    <h4 class="text-2xl mt-4 font-bold">Drive more organic bookings</h4>
-                    <hr class="border-t-2 border-[#83cd29] my-2"> <!-- Horizontal green line -->
+            </div>
+        </section>
+
+        <script>
+            function toggleFeatures(id) {
+                const element = document.getElementById(id);
+                element.classList.toggle('hidden');
+            }
+        </script>
+
+        <section class="mt-12 text-center bg-gray pb-10 rounded-lg">
+            <h2 class="text-4xl font-bold pb-20">What Our Clients Say</h2>
+            <div class="max-w-2xl mx-auto">
+                <blockquote class="border-l-4 border-green-500 pl-4 mb-8">
+                    <p class="text-lg italic text-whitesmoke">"Our reviews jumped 200% in just 3 months. The impact on our occupancy rates has been remarkable."</p>
+                    <footer class="mt-2 text-right text-sm text-gray-400">- Premier Storage Solutions</footer>
+                </blockquote>
+                <blockquote class="border-l-4 border-green-500 pl-4">
+                    <p class="text-lg italic text-whitesmoke">"We went from 45 reviews at 4.5 stars to 120 reviews at 5 stars in under 2 months. Now we're outranking our local competitors."</p>
+                    <footer class="mt-2 text-right text-sm text-gray-400">- SafeStore UK</footer>
+                </blockquote>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="flex flex-cols">
+                <div class="p-5 mx-auto shadow-lg shadow-red-500/50">
+                    <%= image_tag("reviews-example-2.png")%>
+                </div>
+                <div class="p-5  mx-auto shadow-lg shadow-green-500/50">
+                    <%= image_tag("reviews-example.png")%>
                 </div>
             </div>
         </section>
 
 
-        <section class="mt-12 text-center bg-gray pb-40 rounded-lg">
-            <h2 class="text-4xl font-bold pb-20">How It Works: Our 4-Step Process</h2>
-            <ol class="text-left mx-auto max-w-2xl">
-                <li class="mb-8">
-                    <h3 class="text-2xl font-semibold">Custom Review Portal</h3>
-                    <ul class="list-disc pl-5">
-                        <li style="font-size: 0.8rem; color: whitesmoke;">Branded feedback page matching your business identity</li>
-                        <li style="font-size: 0.8rem; color: whitesmoke;">Mobile-optimized design for maximum response rates</li>
-                        <li style="font-size: 0.8rem; color: whitesmoke;">Simple, intuitive user experience</li>
-                    </ul>
-                </li>
-                <li class="mb-8">
-                    <h3 class="text-2xl font-semibold">Smart Automation</h3>
-                    <ul class="list-disc pl-5">
-                        <li style="font-size: 0.8rem; color: whitesmoke;">Perfectly timed review requests</li>
-                        <li style="font-size: 0.8rem; color: whitesmoke;">Personalized email communications</li>
-                        <li style="font-size: 0.8rem; color: whitesmoke;">Follow-up sequence for maximum conversion</li>
-                    </ul>
-                </li>
-                <li class="mb-8">
-                    <h3 class="text-2xl font-semibold">Intelligent Review Management</h3>
-                    <ul class="list-disc pl-5">
-                        <li style="font-size: 0.8rem; color: whitesmoke;">Automatic positive review routing to Google</li>
-                        <li style="font-size: 0.8rem; color: whitesmoke;">Private feedback channel for constructive criticism</li>
-                        <li style="font-size: 0.8rem; color: whitesmoke;">Review monitoring and response management</li>
-                    </ul>
-                </li>
-                <li class="mb-8">
-                    <h3 class="text-2xl font-semibold">Performance Analytics</h3>
-                    <ul class="list-disc pl-5">
-                        <li style="font-size: 0.8rem; color: whitesmoke;">Monthly growth reports</li>
-                        <li style="font-size: 0.8rem; color: whitesmoke;">Competitive analysis</li>
-                        <li style="font-size: 0.8rem; color: whitesmoke;">ROI tracking</li>
-                        <li style="font-size: 0.8rem; color: whitesmoke;">Local search ranking updates</li>
-                    </ul>
-                </li>
-            </ol>
+
+        <section class="mt-12 text-center bg-space-black pb-40 rounded-lg">
+        
+            <h2 class="text-4xl font-bold pb-2 text-white">Transparent Pricing, Exceptional Value</h2>
+            <h3 class="text-xxl pb-10">Start generating more reviews and improving your online reputation today</h3>
+
+
+            <div class="max-w-4xl mx-auto">
+                <table class="min-w-full bg-space-black shadow-lg rounded-lg">
+                    <thead>
+                        <tr>
+                            <th class="py-4 px-6 bg-space-black text-left text-xl font-semibold">
+                                Setup Package
+                                <div class="text-3xl font-bold">£250</div>
+                                <p class="text-sm text-gray-400">one-time fee</p> <!-- Adjusted text size and color -->
+                            </th>
+                            <th class="py-4 px-6 bg-space-black text-left text-xl font-semibold">
+                                Monthly Management
+                                <div class="text-3xl font-bold">£150</div>
+                                <p class="text-sm text-gray-400">/month</p> <!-- Adjusted text size and color -->
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-4 px-6 border-b border-gray-200 text-left text-gray-400  hover:bg-gray-900 hover:text-green-500">
+                                Custom landing page design and development
+                            </td>
+                            <td class="py-4 px-6 border-b border-gray-200 text-left text-gray-400  hover:bg-gray-900 hover:text-green-500">
+                                Ongoing system maintenance
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-4 px-6 border-b border-gray-200 text-left text-gray-400  hover:bg-gray-900 hover:text-green-500">
+                                Email automation setup
+                            </td>
+                            <td class="py-4 px-6 border-b border-gray-200 text-left text-gray-400  hover:bg-gray-900 hover:text-green-500">
+                                Monthly performance reports
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-4 px-6 border-b border-gray-200 text-left text-gray-400  hover:bg-gray-900 hover:text-green-500">
+                                Review management system integration
+                            </td>
+                            <td class="py-4 px-6 border-b border-gray-200 text-left text-gray-400  hover:bg-gray-900 hover:text-green-500">
+                                Review monitoring
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-4 px-6 border-b border-gray-200 text-left text-gray-400  hover:bg-gray-900 hover:text-green-500">
+                                Analytics dashboard setup
+                            </td>
+                            <td class="py-4 px-6 border-b border-gray-200 text-left text-gray-400  hover:bg-gray-900 hover:text-green-500">
+                                Technical support
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-4 px-6 border-b border-gray-200 text-left text-gray-400  hover:bg-gray-900 hover:text-green-500">
+                                Full system configuration
+                            </td>
+                            <td class="py-4 px-6 border-b border-gray-200 text-left text-gray-400  hover:bg-gray-900 hover:text-green-500">
+                                Strategy optimization
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pt-10">
+                <button class="p-2 bg-green-500  rounded-lg shadow-lg shadow-green-500/50">Schedule Your Free ROI Consultation</button>
+            </div>
         </section>
 
 
-        <section class="mt-12 text-center bg-gray pb-40 rounded-lg">
-            <h2 class="text-4xl font-bold">What Our Clients Say</h2>
-            <div class="famewall-embed" data-src="kerchtech" data-format="slider" style="width:100%;"></div>
-            <script type="text/javascript" src="https://embed.famewall.io/frame.js" defer></script>
-            <!-- Typeform Appointment Scheduling begin -->
-            <div data-tf-live="01J7NH3WWZ8EHWXWR1QBKC0X3B"></div><script src="//embed.typeform.com/next/embed.js"></script>
-        </section>
+
 
 
 
