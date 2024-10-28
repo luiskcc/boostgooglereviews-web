@@ -14,7 +14,7 @@ module.exports = {
         'custom-size-2': '400px',
       },
       colors: {
-        'space-black': '#0B0C10', // Example hex code for a "space black" color
+        'space-black': '#18181b', // Example hex code for a "space black" color
       },
       heigh: {
         'custom-size-1': '200px',
