@@ -8,4 +8,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "indices#index"
+
+  get 'privacy-policy', to: 'indices#privacy_policy'
+  get 'terms', to: 'indices#terms'
 end
