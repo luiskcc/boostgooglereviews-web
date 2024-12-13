@@ -1,22 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>kerchtech</title>
+    <title>SkyrocketReviews - Boost Your Business with 5-Star Organic Reviews</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="SkyrocketReviews - Boost Your Business with 5-Star Organic Reviews">
+    <meta name="description" content="Automated Review Generation System for UK Businesses. Transform your online reputation with organic Google reviews. Custom review portal, smart automation, and review management dashboard.">
+    <meta name="keywords" content="google reviews, business reviews, review management, online reputation, UK business reviews, customer feedback">
+    <meta name="author" content="Kerchtech">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://skyrocketreviews.co.uk">
+    <meta property="og:title" content="SkyrocketReviews - Boost Your Business with 5-Star Organic Reviews">
+    <meta property="og:description" content="Automated Review Generation System for UK Businesses. Transform your online reputation with organic Google reviews.">
+    <meta property="og:image" content="<%= asset_path('reviews-example.png') %>">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://skyrocketreviews.co.uk">
+    <meta property="twitter:title" content="SkyrocketReviews - Boost Your Business with 5-Star Organic Reviews">
+    <meta property="twitter:description" content="Automated Review Generation System for UK Businesses. Transform your online reputation with organic Google reviews.">
+    <meta property="twitter:image" content="<%= asset_path('reviews-example.png') %>">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://skyrocketreviews.co.uk">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <!-- Rails Default Tags -->
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
-
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-        <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16696567056">
-    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16696567056"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'AW-16696567056');
+    </script>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "SkyrocketReviews",
+      "applicationCategory": "BusinessApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "250",
+        "priceCurrency": "GBP"
+      },
+      "description": "Automated Review Generation System for UK Businesses",
+      "provider": {
+        "@type": "Organization",
+        "name": "Kerchtech",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Colchester",
+          "addressCountry": "UK"
+        }
+      }
+    }
     </script>
   </head>
 
