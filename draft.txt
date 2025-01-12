@@ -8,3 +8,18 @@
             </div>
         </div>
     </section>
+
+
+            <section class="mt-12 text-center bg-gray pb-10 rounded-lg">
+            <h2 class="text-4xl font-bold pb-20">What Our Clients Say</h2>
+            <div class="max-w-2xl mx-auto">
+                <blockquote class="border-l-4 border-[#4F46E5] pl-4 mb-8">
+                    <p class="text-lg italic text-whitesmoke">"Our reviews jumped 4000% in just 3 months. The impact on our occupancy rates has been remarkable."</p>
+                    <footer class="mt-2 text-right text-sm text-gray-400">- Ad Boat Rental</footer>
+                </blockquote>
+                <blockquote class="border-l-4 border-[#4F46E5] pl-4">
+                    <p class="text-lg italic text-whitesmoke">"We went from 42 reviews at 4.6 stars to 75 reviews at 4.8 stars in under 2 weeks. Now we're outranking our local competitors."</p>
+                    <footer class="mt-2 text-right text-sm text-gray-400">- Gelateria Nonna Maria</footer>
+                </blockquote>
+            </div>
+        </section>
