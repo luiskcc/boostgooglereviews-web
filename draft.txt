@@ -1,0 +1,10 @@
+    <section>
+        <div class="pb-10 flex flex-col md:flex-row">
+            <div class="p-5 mx-auto shadow-lg shadow-red-500/50">
+                <%= image_tag("reviews-example-2.png") %>
+            </div>
+            <div class="p-5 mx-auto shadow-lg shadow-green-500/50">
+                <%= image_tag("reviews-example.png") %>
+            </div>
+        </div>
+    </section>
