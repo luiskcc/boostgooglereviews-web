@@ -13,3 +13,77 @@
         <div class="p-10">
             <%= image_tag 'studio.png', alt: 'Kerchtech studio', class: 'w-full h-auto' %>
         </div>
+
+
+
+            <div class="max-w-4xl mx-auto text-sm">
+                <table class="min-w-full bg-black-700 shadow-lg rounded-lg">
+                    <thead>
+                        <tr>
+                            <th class="py-4 px-2 text-center text-xl font-semibold">
+                                Setup Package
+                                <div class="text-3xl font-bold">£250</div>
+                                <p class="text-sm text-gray-400">one-time fee</p> <!-- Adjusted text size and color -->
+                            </th>
+                            <th class="py-4 px-2 text-center text-xl font-semibold">
+                                Monthly Management
+                                <div class="text-3xl font-bold">£150</div>
+                                <p class="text-sm text-gray-400">/month</p> <!-- Adjusted text size and color -->
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-4 px-2 border-b border-gray-200 text-center text-gray-400  hover:bg-space-black hover:text-green-500">
+                                Custom landing page design and development
+                            </td>
+                            <td class="py-4 px-2 border-b border-gray-200 text-center text-gray-400  hover:bg-space-black hover:text-green-500">
+                                Ongoing system maintenance
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-4 px-2 border-b border-gray-200 text-center text-gray-400  hover:bg-space-black hover:text-green-500">
+                                Email automation setup
+                            </td>
+                            <td class="py-4 px-2 border-b border-gray-200 text-center text-gray-400  hover:bg-space-black hover:text-green-500">
+                                Monthly performance reports
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-4 px-2 border-b border-gray-200 text-center text-gray-400  hover:bg-space-black hover:text-green-500">
+                                Review management system integration
+                            </td>
+                            <td class="py-4 px-2 border-b border-gray-200 text-center text-gray-400  hover:bg-space-black hover:text-green-500">
+                                Review monitoring
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-4 px-2 border-b border-gray-200 text-center text-gray-400  hover:bg-space-black hover:text-green-500">
+                                Analytics dashboard setup
+                            </td>
+                            <td class="py-4 px-2 border-b border-gray-200 text-center text-gray-400  hover:bg-space-black hover:text-green-500">
+                                Technical support
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-4 px-2 border-gray-200 text-center text-gray-400  hover:bg-space-black hover:text-green-500">
+                                Full system configuration
+                            </td>
+                            <td class="py-4 px-2 border-gray-200 text-center text-gray-400  hover:bg-space-black hover:text-green-500">
+                                Strategy optimization
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            Custom Landing Page
+            Email automation setup
+            Full system configuration
+            Review monitoring
+            Analytics dashboard setup
+            Strategy optimization
+            Ongoing system maintenance
+            Monthly performance reports
+            Technical support
+
