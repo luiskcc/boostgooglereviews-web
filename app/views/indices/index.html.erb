@@ -1,38 +1,13 @@
 
 
 <div class="container mx-auto p-8 text-center">
+    <div class="pb-10">
         <%= image_tag 'skyrocket-reviews-logo.png',
                 alt: 'Skyrocket Reviews Logo',
                 class: 'h-20'
             %>
-    <div class="fixed bottom-0 left-0 right-0 sm:flex justify-end">            
-        <a href="https://twitter.com/luis_insights" class="block">
-            <div class="m-5 bg-gray-800 inline-flex items-center gap-4 p-2 rounded-xl shadow-lg">
-                <!-- Profile Picture with subtle border -->
-                <%= image_tag 'luis_profile.png', 
-                    alt: 'Profile Picture', 
-                    class: 'w-12 h-12 rounded-full object-cover ring-2 ring-white/20' %>
-                
-                <!-- Name and Username with improved visibility -->
-                <div class="flex flex-col">
-                    <span class="text-white font-medium">Got a Question? DM</span>
-                    <span class="text-white font-medium">@luis_insights</span>
-                </div>
-
-                <!-- X Logo SVG -->
-                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full font-medium">
-                    <svg class="w-9 h-9" viewBox="0 0 24 24" aria-hidden="true">
-                    <path 
-                        fill="currentColor" 
-                        d="M13.3174 10.7749L19.1457 4H17.7646L12.7039 9.88256L8.66193 4H4L10.1122 12.8955L4 20H5.38119L10.7254 13.7878L14.994 20H19.656L13.3174 10.7749ZM11.4257 12.9738L10.8064 12.0881L5.87886 5.03974H8.00029L11.9769 10.728L12.5962 11.6137L17.7646 19.0075H15.6432L11.4257 12.9738Z"
-                    ></path>
-                    </svg>
-                </div>
-            </div>
-        </a>
     </div>
-
-
+    
         <section class="text-center pb-20 rounded-lg lg:py-40">
             <div class="flex flex-col items-center lg:flex-row">
                 <text-box>
@@ -43,7 +18,7 @@
                 </text-box>
                 <div class="m-10 relative w-full aspect-video">
                     <iframe 
-                        src="https://www.youtube.com/embed/75r3bAENaEs?autoplay=1&mute=1&loop=1&playlist=75r3bAENaEs&controls=0&showinfo=0"
+                        src="https://www.youtube.com/embed/75r3bAENaEs?autoplay=1&mute=1&loop=1&playlist=75r3bAENaEs&controls=0&showinfo=0&wmode=opaque&wmode=transparent"
                         class="absolute top-0 left-0 w-full h-full"
                         frameborder="0" 
                         allowfullscreen>
@@ -367,26 +342,35 @@
                     </div>
                 </div>
             </div>
-
-                <!-- Add these animations to your application.tailwind.css -->
-                <style>
-                @keyframes shimmer {
-                    0% { transform: translateX(-200%); }
-                    100% { transform: translateX(200%); }
-                }
-
-                .animate-shimmer {
-                    animation: shimmer 2s infinite;
-                }
-
-                .animate-shimmer-delayed {
-                    animation: shimmer 2.5s infinite;
-                    animation-delay: 0.2s;
-                }
-                </style>
-                
         </section>
+        <div id="twitter-profile-overlay" class="fixed bottom-0 left-0 right-0 flex justify-end" style="z-index: 9999; pointer-events: none;">            
+            <a href="https://twitter.com/luis_insights" class="block" style="pointer-events: auto;">
+                <div class="m-5 bg-gray-800 inline-flex items-center gap-4 p-2 rounded-2xl shadow-lg">
+                    <!-- Profile Picture with subtle border -->
+                    <%= image_tag 'luis_profile.png', 
+                        alt: 'Profile Picture', 
+                        class: 'w-12 h-12 rounded-full object-cover ring-2 ring-white/20' %>
+                    
+                    <!-- Name and Username with improved visibility -->
+                    <div class="hidden lg:flex flex-col">
+                        <span class="text-white font-medium">Got a Question? DM</span>
+                        <span class="text-white font-medium">@luis_insights</span>
+                    </div>
+
+                    <!-- X Logo SVG -->
+                    <div class="hidden lg:inline-flex items-center gap-2 px-4 py-2 rounded-full font-medium">
+                        <svg class="w-9 h-9" viewBox="0 0 24 24" aria-hidden="true">
+                        <path 
+                            fill="currentColor" 
+                            d="M13.3174 10.7749L19.1457 4H17.7646L12.7039 9.88256L8.66193 4H4L10.1122 12.8955L4 20H5.38119L10.7254 13.7878L14.994 20H19.656L13.3174 10.7749ZM11.4257 12.9738L10.8064 12.0881L5.87886 5.03974H8.00029L11.9769 10.728L12.5962 11.6137L17.7646 19.0075H15.6432L11.4257 12.9738Z"
+                        ></path>
+                        </svg>
+                    </div>
+                </div>
+            </a>
+        </div>
 </div>
+
 
 
 

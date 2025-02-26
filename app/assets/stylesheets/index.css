@@ -1,0 +1,18 @@
+@keyframes shimmer {
+    0% {
+        transform: translateX(-200%);
+    }
+
+    100% {
+        transform: translateX(200%);
+    }
+}
+
+.animate-shimmer {
+    animation: shimmer 2s infinite;
+}
+
+.animate-shimmer-delayed {
+    animation: shimmer 2.5s infinite;
+    animation-delay: 0.2s;
+}
